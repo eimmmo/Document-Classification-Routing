@@ -1,4 +1,23 @@
-.ipynb_checkpoints/
+# الداتا ما بتترفعش على GitHub (بتتبادل على Google Drive)
+/data/
+
+# بايثون
 __pycache__/
-mlruns/
+*.pyc
 .venv/
+venv/
+
+# نوتبوك
+.ipynb_checkpoints/
+
+# MLflow
+mlruns/
+
+# أسرار ومفاتيح (ممنوع تتحط في الكود)
+.env
+*.key
+
+# أنظمة تشغيل ومحررات
+.DS_Store
+.vscode/
+.idea/

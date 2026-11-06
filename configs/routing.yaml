@@ -1,0 +1,12 @@
+# جدول التوجيه وحدود الثقة (قيم مبدئية، بتتضبط في المرحلة 5)
+thresholds:
+  auto_route: 0.85      # 0.85 أو أكتر -> auto_route
+  needs_review: 0.60    # من 0.60 لـ 0.85 -> needs_review، وأقل -> manual
+
+routes:
+  Complaint: Customer Service
+  Contract: Legal
+  # بتتضاف في المراحل اللاحقة:
+  # Service Request: IT / Operations
+  # Resume: HR
+  # Email: Administration
