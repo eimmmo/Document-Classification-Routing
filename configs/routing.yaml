@@ -1,10 +1,9 @@
 thresholds:
-  auto_route: 0.85     
-  needs_review: 0.60  
+  auto_route: 0.85
+  needs_review: 0.60
 
 routes:
   Complaint: Customer Service
   Contract: Legal
-  # Service Request: IT / Operations
-  # Resume: HR
-  # Email: Administration
+
+fallback_department: Manual Review
