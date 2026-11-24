@@ -17,6 +17,12 @@ def test_contract_goes_to_legal():
     assert r["action"] == "auto_route"
 
 
+def test_service_request_goes_to_it_operations():
+    r = route("Service Request", 0.90, CONFIG)
+    assert r["route_to"] == "IT / Operations"
+    assert r["action"] == "auto_route"
+
+
 def test_medium_confidence_needs_review():
     assert route("Complaint", 0.72, CONFIG)["action"] == "needs_review"
 

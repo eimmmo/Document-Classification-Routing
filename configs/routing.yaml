@@ -5,5 +5,6 @@ thresholds:
 routes:
   Complaint: Customer Service
   Contract: Legal
+  Service Request: IT / Operations
 
 fallback_department: Manual Review
